@@ -3,16 +3,46 @@
   <head>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+      body{
+        background-color: #548efa;
+      }
+
+      main{
+        margin: 100px auto;
+        padding: 20px;
+        background-color: white;
+        width: 400px;
+        height: fit-content;
+        box-shadow: 5px 5px black;
+      }
+
       h1{
         color: white;
-        font-family: "Luckiest Guy";
-        text-shadow: 2px 2px 4px black;
-        text-shadow: -2px 2px 4px black;
+        text-align: center;
+        font-family: "Luckiest Guy", sans-serif;
+        text-shadow: 2px 2px black, -2px 2px black, 2px -1px black, -2px -1px black;
+      }
+
+      a{
+        font-family: "Luckiest Guy", sans-serif;
+        color: black;
       }
     </style>
   </head>
   <body>
-    <h1>bloon stuff here</h1>
-    <a href="instamonkey rotation.html">Instamonkey Rotation</a>
+    <main>  
+      <h1>My bloon stuff here</h1>
+      <ul>
+        <li>
+          <a href="instamonkey rotation.html" target="_blank">Instamonkey Rotation</a>
+          <ul>
+            <li>
+              <a href="https://scratch.mit.edu" target="_blank">Scratch version</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
